@@ -1,0 +1,164 @@
+body{
+    display:flex;
+    /* height: 50vh; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    font-family: "apple-system", "BlinkMacSystemFont", "Segoe UI", system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Web", sans-serif
+}
+.container{
+    /* width:900px; */
+    background-color: #020114;
+    margin: 0;
+    padding:0;
+    width:70%;
+    
+}
+.hd{
+    display:flex;
+    gap:40px;
+    color:white
+
+}
+.arrow{
+    display:flex;
+    align-items:center;
+    padding:5px
+}
+.mid img{
+    /* height:300px; */
+    width:100%;
+    
+}
+.pic{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width:100%;
+    /* background-color: #fff; */
+}
+.following{
+    color:white;
+}
+.file{
+    padding-left:20px;
+    position:relative;
+    margin-top: -60px;
+}
+.pic>.file >img{
+    width:130px;
+    height:130px;
+   border: #fff 2px solid;
+    border-radius: 50%;
+    
+}
+.tags{
+    width:40%;
+    padding:20px;
+   
+
+}
+.following{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.following>ion-icon{
+    border: #837e7e 0.3px solid;
+    padding:3px;
+    border-radius: 50%;
+
+}
+.profile{
+    padding-left:20px;
+    color:white;
+
+}
+.profile>ion-icon {
+    color: gray;
+  }
+  .followers{
+    display: flex;
+    flex-wrap: wrap;
+gap:20px
+  }
+  .details{
+    display:flex;
+    gap:10px;
+  }
+  .smallpics>img{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    padding-top: 20px;
+  }
+  .followed{
+    padding-top: -3px;
+  }
+  .navbar{
+    display:flex;
+    /* margin-left: -2rem; */
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    border-bottom: grey 1px solid;
+    color:gray;
+   
+}   
+.bottom{
+    padding:0;
+    margin:0;
+    border-bottom: rgb(66, 64, 64) 1px solid;
+    /* display:flex;
+    flex-direction:column */
+}
+.beloRiva{
+    display:flex;
+    align-items: baseline;
+}
+.pin{
+    display:flex;
+    align-items: first baseline;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    width:30%;
+    gap:5px;
+    color: white;
+}
+.pin>p{
+    margin-top: 1%;
+}
+
+.smallImg{
+    display:flex;
+    justify-content: start;
+    padding-left:1.25rem;
+    padding-top:0.5rem ;
+}
+.pinnedTweet{
+    /* padding-left: 1.25rem; */
+    padding-top:1.25rem;
+    display:flex;
+    gap:20px;
+    width:100%;
+    /* justify-content: space-evenly; */
+    
+
+}
+.below{
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    width:55%;
+    margin-top:-8px;
+   
+}
+.threedots{
+    display:flex;
+    width:30%;
+   justify-content:right;
+   padding-top: 0.5rem;
+   color: white;
+}
